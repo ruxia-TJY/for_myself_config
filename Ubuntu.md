@@ -1,7 +1,5 @@
 # Ubuntu
 
-
-
 ## apt
 
 ```shell
@@ -9,13 +7,14 @@ sudo apt install gcc g++ makefile
 sudo apt install git
 ```
 
-
-
 ## bashrc
 
 ```shell
 alias q=exit
 alias l=ls
+alias ll='ls -l'
+alias py=python3
+alias py2=python2
 ```
 
 
