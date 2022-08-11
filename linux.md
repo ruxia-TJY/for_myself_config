@@ -1,10 +1,13 @@
 # Ubuntu
 
-## apt
+## 下载软件
 
 ```shell
 sudo apt install gcc g++ makefile
 sudo apt install git
+sudo apt install bat		# 替换cat
+sudo apt install exa		# 替换ls
+sudo apt install duf		# 替换df
 ```
 
 ## bashrc
@@ -15,8 +18,10 @@ alias l=ls
 alias ll='ls -l'
 alias py=python3
 alias py2=python2
-```
 
+# 如果安装bat,替换自带cat
+alias cat=bat
+```
 
 
 ## ct
