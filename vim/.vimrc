@@ -1,7 +1,3 @@
-#VIM
-
-
-'''.vimrc
 call plug#begin('~/.vim/plugged')
 Plug 'majutsushi/tagbar'
 call plug#end()
@@ -58,4 +54,3 @@ set tabstop=4
 
 " 光标遇到括号，自动高亮对应括号
 set showmatch
-'''
